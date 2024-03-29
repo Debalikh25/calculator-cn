@@ -1,38 +1,63 @@
-.App {
+body {
+  background-color: cadetblue;
+}
+
+.title {
+  margin-left: auto;
+  margin-right: auto;
   text-align: center;
+  margin-top: 70px;
+  margin-bottom: 40px;
+  font-size: 50px;
+  font-style: italic;
+  color :rgb(247, 166, 59)
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.calculator {
+  max-width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.display {
+  background-color: rgb(194, 194, 194);
+  font-size: 18px;
+  color : black;
+  padding : 12px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.active {
+  background-color: red;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+button {
+  padding: 10px;
+  width: 60px;
+  font-weight: bold;
+  background-color: rgb(185, 185, 249);
+  border: 1px solid blue;
+  border-radius: 50px;
+  margin: 5px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.reset {
+  background-color: red;
+  color: black;
+  border: 1px solid yellow;
+}
+
+.type1 {
+  background-color: aquamarine;
+  border: 1px solid orchid;
+}
+
+.type2 {
+  background-color: bisque;
+  border: 1px solid red;
+}
+
+.equal {
+  background-color: greenyellow;
+  border: 1px solid purple;
 }
